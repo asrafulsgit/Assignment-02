@@ -228,6 +228,106 @@ body{
      /* line-height: 26px; */
 }
 
+/* .stories section style */
+.stories-section{
+     padding: 30px 120px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 80px;
+}
+.stories-section .stories{
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+}
+.stories-section .stories .stories-left{
+     flex: 0.4;
+     border: 1px solid;
+     height: auto;
+}
+.stories-section .stories .stories-left .story-one{
+     background-color: rgba(255, 255, 255, 1);
+     border-radius: 16px;
+     border: 1px solid;
+     overflow: hidden;
+}
+.stories-section .stories-left .story .story-header,
+.stories-section .stories-right .story .story-header{
+     position: relative;
+}
+.stories-section .stories-left .story-one .date{
+     background-color: rgba(60, 216, 232, 1);
+}
+.stories-section .stories-left .story .date,
+.stories-section .stories-right .story .date{
+     border-radius: 47px;
+     padding: 15px 20px;
+     font-size: 16px;
+     font-family: var(--raleway-font);
+     font-weight: 500;
+     position: absolute;
+     color: rgba(255, 255, 255, 1);
+     bottom: -19px;
+     left: 38px;
+}
 
+.stories-section .stories .stories-left .story-one .story-body{
+     margin-top: 58px;
+     padding-left: 38px;
+     padding-bottom: 35px;
+}
+.stories-section .stories .stories-left .story-one .story-body h2{
+     color:rgba(0, 0, 0, 1);
+     font-weight: 24px;
+     font-weight: bold;
+     font-family: var(--quiecksand-font);
+}
+.stories-section .stories .stories-left .story-one .story-body p{
+     margin-top: 50px;
+     font-family: var(--raleway-font);
+     font-weight: 500;
+     font-size: 16px;
+     color: rgba(102, 102, 102, 1);
+     line-height: 28px;
+     margin-right: 60px;
+}
+
+
+
+.stories-section .stories .stories-right{
+     flex: 0.6;
+     border: 1px solid;
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-gap: 20px;
+}
+.stories-section .stories .stories-right .story{
+     border-radius: 16px;
+     overflow: hidden;
+     /* border: 1px solid; */
+     background-color:rgba(255, 255, 255, 1);
+}
+
+.stories-section .stories-right .story-two .date,.stories-section .stories-right .story-four .date,
+.stories-section .stories-right .story-five .date{
+     background-color: rgba(149, 178, 38, 1);
+}
+.stories-section .stories-right .story-three .date{
+     background-color: rgba(93, 88, 240, 1);
+}
+.stories-section .stories-right .story-body{
+     margin-top: 43px;
+     padding: 0 20px 32px 38px;
+}
+.stories-section .stories-right .story-body p{
+     font-family: var(--quiecksand-font);
+     font-size: 16px;
+     font-weight: bold;
+     color: rgba(0, 0, 0, 1);
+     line-height: 28px;
+}
 
  
