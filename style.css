@@ -31,5 +31,65 @@ body{
 /* common style ends here */
 
 
+/* nav style  */
+.nav{
+     padding: 20px 120px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid;
+}
+.nav .logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.nav .logo img{
+     width: 50px;
+     height: 50px;
+}
+.nav .logo h1{
+     font-family: var(--quiecksand-font);
+     font-size: 32px;
+     font-weight: bold;
+     color:rgba(17, 17, 17, 1) ;
+     margin-left: 12px;
+}
+.nav .nav-links ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 32px;
+}
+
+.nav .nav-links ul li a{
+     font-family: var(--quiecksand-font);
+     font-size: 20px;
+     font-weight: 500;
+}
+.nav .nav-links ul li #home{
+     color: var(--orange-color);
+}
+.nav .nav-links ul li #about{
+     color:var(--sky-blue-color) ;
+}
+.nav .nav-links ul li #facilities{
+     color:rgba(5, 212, 223, 1) ;
+}
+.nav .nav-links ul li #admission{
+     color: rgba(93, 88, 239, 1);
+}
+.nav .contact-link button{
+     padding: 10px 60px;
+     background-color: var(--orange-color);
+     color: white;
+     border-radius: 12px;
+     font-weight: 600;
+     font-size: 20px;
+     border: none;
+     font-family: var(--quiecksand-font);
+}
+
+
 
  
