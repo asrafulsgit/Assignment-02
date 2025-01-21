@@ -112,6 +112,9 @@ body{
      }
 }
 @media screen and (max-width:800px) {
+     .nav{
+          border: 0.5px solid rgba(254, 163, 1, 1);
+     }
      .nav .logo h1{
           display: none;
      }
