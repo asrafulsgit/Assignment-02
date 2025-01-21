@@ -89,6 +89,42 @@ body{
      border: none;
      font-family: var(--quiecksand-font);
 }
+.nav .mobile-nav{
+     display: none;
+}
+.nav .mobile-nav i{
+     color: black;
+     font-size:32px;
+}
+
+/* nav responsive starts here */
+@media screen and (max-width:1200px) {
+     .nav{
+          padding: 20px 60px;
+     }
+}
+@media screen and (max-width:992px) {
+     .nav{
+          padding: 20px;
+     }
+     .nav .contact-link button{
+          padding: 10px 20px;
+     }
+}
+@media screen and (max-width:800px) {
+     .nav .logo h1{
+          display: none;
+     }
+     .nav .nav-links,
+     .nav .contact-link{
+          display: none;
+     }
+     .nav .mobile-nav{
+          border: 1px;
+          display: block;
+     }
+}
+/* nav responsive ends here */
 
 /* header section style */
 
@@ -98,11 +134,11 @@ body{
      gap: 50px;
      justify-content: space-between;
      align-items: center;
-     min-height:88vh ;
+     min-height:81vh ;
 }
-.header-section .header-left{
+/* .header-section .header-left{
      
-}
+} */
 .header-section .header-left h1{
      font-size: 56px;
      font-weight: bold;
@@ -136,6 +172,13 @@ body{
 .header-section .header-right img{
      height: 500px;
      /* border: 1px solid; */
+}
+
+.marquee marquee{
+    font-size: 20px;
+    font-weight: 600; 
+    font-family: var(--quiecksand-font);
+    color: rgba(0, 0, 0, 0.524);
 }
 
 /* curriculum section style */
@@ -286,7 +329,7 @@ body{
      font-weight: 500;
      position: absolute;
      color: rgba(255, 255, 255, 1);
-     bottom: -19px;
+     bottom: -18px;
      left: 38px;
 }
 
@@ -391,6 +434,7 @@ footer .company-details p{
 }
 footer .footer-links{
      flex: 0.3;
+     margin-left: 100px;
 }
 footer .footer-links h2,
 footer .footer-contact h2{

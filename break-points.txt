@@ -1,0 +1,15 @@
+1. Extra Small Devices (Mobile Portrait)
+     Range: 0px - 575px
+     Breakpoint: 576px
+
+2. Small Devices (Mobile Landscape)
+     Range: 576px - 767px
+     Breakpoint: 768px
+
+3. Medium Devices (Tablets)
+     Range: 768px - 991px
+     Breakpoint: 992px
+
+4. Large Devices (Laptops)
+     Range: 992px - 1199px
+     Breakpoint: 1200px
